@@ -1,7 +1,11 @@
-import random
-
 def inputs():
-    
+    global noun
+    global noun_prulal
+    global Nouns
+    global place
+    global adjective
+    global Noun
+
     print("""
     Please Enter the following : """)
     noun = input("noun: ")
@@ -10,7 +14,6 @@ def inputs():
     place = input("Place : ")
     adjective = input("Adjective : ")
     Nouns = input("Noun: ")
-    globals(noun, noun_prulal, Noun, Nouns, place, adjective)
 
 
 def phrase():
